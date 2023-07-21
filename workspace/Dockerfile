@@ -335,7 +335,7 @@ RUN set -eux; \
 
 USER root
 
-ARG INSTALL_XDEBUG=false
+ARG INSTALL_XDEBUG=true
 ARG XDEBUG_PORT=9003
 
 RUN if [ ${INSTALL_XDEBUG} = true ]; then \
